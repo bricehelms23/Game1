@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
@@ -34,8 +34,10 @@
     "IDEVersion": "2023.11.0.121",
   },
   "resources": [
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
-    {"id":{"name":"Object1","path":"objects/Object1/Object1.yy",},},
+    {"id":{"name":"spr_ground_temp","path":"sprites/spr_ground_temp/spr_ground_temp.yy",},},
+    {"id":{"name":"obj_pengu","path":"objects/obj_pengu/obj_pengu.yy",},},
+    {"id":{"name":"spr_pengu","path":"sprites/spr_pengu/spr_pengu.yy",},},
+    {"id":{"name":"obj_ground_temp","path":"objects/obj_ground_temp/obj_ground_temp.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
