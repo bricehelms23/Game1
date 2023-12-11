@@ -34,6 +34,7 @@
     "IDEVersion": "2023.11.0.121",
   },
   "resources": [
+    {"id":{"name":"obj_resize","path":"objects/obj_resize/obj_resize.yy",},},
     {"id":{"name":"spr_ground_temp","path":"sprites/spr_ground_temp/spr_ground_temp.yy",},},
     {"id":{"name":"obj_pengu","path":"objects/obj_pengu/obj_pengu.yy",},},
     {"id":{"name":"spr_pengu","path":"sprites/spr_pengu/spr_pengu.yy",},},

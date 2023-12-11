@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_resize","order":2,"path":"objects/obj_resize/obj_resize.yy",},
     {"name":"spr_ground_temp","order":1,"path":"sprites/spr_ground_temp/spr_ground_temp.yy",},
     {"name":"obj_ground_temp","order":1,"path":"objects/obj_ground_temp/obj_ground_temp.yy",},
   ],
