@@ -17,8 +17,11 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"obj_game","order":4,"path":"objects/obj_game/obj_game.yy",},
     {"name":"obj_resize","order":2,"path":"objects/obj_resize/obj_resize.yy",},
     {"name":"spr_ground_temp","order":1,"path":"sprites/spr_ground_temp/spr_ground_temp.yy",},
+    {"name":"obj_spikes","order":3,"path":"objects/obj_spikes/obj_spikes.yy",},
+    {"name":"spr_spikes","order":2,"path":"sprites/spr_spikes/spr_spikes.yy",},
     {"name":"obj_ground_temp","order":1,"path":"objects/obj_ground_temp/obj_ground_temp.yy",},
   ],
 }
