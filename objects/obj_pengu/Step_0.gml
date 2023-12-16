@@ -4,23 +4,9 @@
 move_x = keyboard_check(vk_right) - keyboard_check(vk_left);
 move_x *= move_speed;
 
-if (place_meeting(x, y + 2, obj_ground_temp))
+switch (state) 
 {
-	move_y = 0;
-	if (keyboard_check(vk_space))
-	{
-		move_y = -jump_speed;
-	}
-}
-else if (move_y < 10) 
-{
-	move_y += 1;
+	case PLAYERSTATE.IDLE: player_state_idle(move_x); break;
+	case PLAYERSTATE.ATTACK: player_state_attack(); break;
 }
 
-
-move_and_collide(move_x, move_y, obj_ground_temp)
-
-if (move_x != 0) 
-{
-	image_xscale = sign(move_x);
-}
