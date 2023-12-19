@@ -8,6 +8,7 @@ move_x = 0;
 move_y = 0;
 
 state = PLAYERSTATE.IDLE;
+hit_by_attack = ds_list_create();
 
 enum PLAYERSTATE 
 {
