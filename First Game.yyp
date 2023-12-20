@@ -43,10 +43,12 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"spr_enemy_attack","path":"sprites/spr_enemy_attack/spr_enemy_attack.yy",},},
     {"id":{"name":"player_state_idle","path":"scripts/player_state_idle/player_state_idle.yy",},},
     {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
     {"id":{"name":"player_state_damage","path":"scripts/player_state_damage/player_state_damage.yy",},},
     {"id":{"name":"player_hit","path":"scripts/player_hit/player_hit.yy",},},
+    {"id":{"name":"enemy_state_attack","path":"scripts/enemy_state_attack/enemy_state_attack.yy",},},
     {"id":{"name":"enemy_state_idle","path":"scripts/enemy_state_idle/enemy_state_idle.yy",},},
     {"id":{"name":"spr_pengu_attack","path":"sprites/spr_pengu_attack/spr_pengu_attack.yy",},},
     {"id":{"name":"obj_resize","path":"objects/obj_resize/obj_resize.yy",},},

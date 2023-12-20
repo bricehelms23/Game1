@@ -25,10 +25,12 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_enemy_attack","order":2,"path":"sprites/spr_enemy_attack/spr_enemy_attack.yy",},
     {"name":"player_state_idle","order":1,"path":"scripts/player_state_idle/player_state_idle.yy",},
     {"name":"obj_game","order":4,"path":"objects/obj_game/obj_game.yy",},
     {"name":"player_state_damage","order":3,"path":"scripts/player_state_damage/player_state_damage.yy",},
     {"name":"player_hit","order":2,"path":"scripts/player_hit/player_hit.yy",},
+    {"name":"enemy_state_attack","order":2,"path":"scripts/enemy_state_attack/enemy_state_attack.yy",},
     {"name":"spr_pengu_attack","order":1,"path":"sprites/spr_pengu_attack/spr_pengu_attack.yy",},
     {"name":"obj_resize","order":2,"path":"objects/obj_resize/obj_resize.yy",},
     {"name":"spr_enemy_damage_flash","order":1,"path":"sprites/spr_enemy_damage_flash/spr_enemy_damage_flash.yy",},
