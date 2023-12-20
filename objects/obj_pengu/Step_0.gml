@@ -8,5 +8,6 @@ switch (state)
 {
 	case PLAYERSTATE.IDLE: player_state_idle(move_x); break;
 	case PLAYERSTATE.ATTACK: player_state_attack(); break;
+	case PLAYERSTATE.DAMAGE: player_state_damage(); break;
 }
 

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "enemy_state_dead",
+  "name": "enemy_state_damage",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

@@ -1,16 +1,16 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function enemy_state_dead(){
-	sprite_index = spr_enemy_damage_flash;
-	var _count = 0;
+function player_state_damage(){
+	sprite_index = spr_pengu_damage_flash;
+	//var _count = 0;
 	if (animation_end())
 	{
-		sprite_index = spr_enemy;
-		state = ENEMYSTATE.IDLE;
-		_count++;
+		sprite_index = spr_pengu;
+		state = PLAYERSTATE.IDLE;
+		hp--;
 	}
 	
-	if (_count == 1) 
+	if (hp == 0) 
 	{
 		instance_destroy();
 	}
