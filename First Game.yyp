@@ -67,6 +67,7 @@
     {"id":{"name":"animation_end","path":"scripts/animation_end/animation_end.yy",},},
     {"id":{"name":"obj_hitbox","path":"objects/obj_hitbox/obj_hitbox.yy",},},
     {"id":{"name":"enemy_hit","path":"scripts/enemy_hit/enemy_hit.yy",},},
+    {"id":{"name":"spr_enemy_attack_hb","path":"sprites/spr_enemy_attack_hb/spr_enemy_attack_hb.yy",},},
     {"id":{"name":"spr_pengu_attack_hb","path":"sprites/spr_pengu_attack_hb/spr_pengu_attack_hb.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

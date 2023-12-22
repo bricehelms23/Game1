@@ -38,9 +38,10 @@
     {"name":"spr_pengu_damage_flash","order":3,"path":"sprites/spr_pengu_damage_flash/spr_pengu_damage_flash.yy",},
     {"name":"spr_spikes","order":1,"path":"sprites/spr_spikes/spr_spikes.yy",},
     {"name":"enemy_state_damage","order":1,"path":"scripts/enemy_state_damage/enemy_state_damage.yy",},
-    {"name":"animation_end","order":2,"path":"scripts/animation_end/animation_end.yy",},
+    {"name":"animation_end","order":3,"path":"scripts/animation_end/animation_end.yy",},
     {"name":"obj_hitbox","order":1,"path":"objects/obj_hitbox/obj_hitbox.yy",},
     {"name":"enemy_hit","order":1,"path":"scripts/enemy_hit/enemy_hit.yy",},
+    {"name":"spr_enemy_attack_hb","order":3,"path":"sprites/spr_enemy_attack_hb/spr_enemy_attack_hb.yy",},
     {"name":"spr_pengu_attack_hb","order":2,"path":"sprites/spr_pengu_attack_hb/spr_pengu_attack_hb.yy",},
   ],
 }

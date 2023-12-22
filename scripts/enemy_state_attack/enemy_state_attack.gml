@@ -9,7 +9,7 @@ function enemy_state_attack(){
 		ds_list_clear(hit_by_attack);
 	}
 	
-	
+	mask_index = spr_enemy_attack_hb;
 	var _hit_by_attack_now = ds_list_create();
 	var _hits = instance_place_list(x, y, obj_pengu, _hit_by_attack_now, false);
 	
@@ -30,6 +30,7 @@ function enemy_state_attack(){
 	}
 	
 	ds_list_destroy(_hit_by_attack_now);
+	mask_index = spr_enemy
 	
 	if (animation_end())
 	{
