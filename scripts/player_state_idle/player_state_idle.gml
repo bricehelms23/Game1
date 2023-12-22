@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function player_state_idle(move_x){
+function player_state_idle(){
 	key_attack = keyboard_check_pressed(ord("Q"));
 	
 	//if place_meeting(x+move_speed, y, obj_ground_temp)

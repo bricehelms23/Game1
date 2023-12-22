@@ -21,36 +21,20 @@ if (!place_meeting(x, y+1, obj_ground_temp))
 {
 	jump_speed += _gravity;	
 }
-else
-{
-	if (keyboard_check_pressed(vk_space))
-	{
-		jump_speed = -12;	
-	}
+
+if (place_meeting(x, y+1, obj_ground_temp))
+{	
+	jump_count = max_jumps;
 }
 
-if (place_meeting(x+move_speed, y, obj_ground_temp))
+if ((keyboard_check_pressed(vk_space)) && (jump_count > 0))
 {
-	while (!place_meeting(x+sign(move_speed), y, obj_ground_temp))
-	{
-		x += sign(move_speed);	
-	}
-	move_speed = 0;
+	jump_speed = -12
+	show_debug_message(jump_count);
+	jump_count = jump_count - 1;
 }
 
-x += move_speed;
-
-if (place_meeting(x, y+jump_speed, obj_ground_temp))
-{
-	while (!place_meeting(x, y+sign(jump_speed), obj_ground_temp))
-	{
-		y += sign(jump_speed);	
-	}
-	jump_speed = 0;
-}
-	
-y += jump_speed;
-
+move();
 
 if (_move_input != 0) 
 {
@@ -59,7 +43,7 @@ if (_move_input != 0)
 
 switch (state) 
 {
-	case PLAYERSTATE.IDLE: player_state_idle(move_x); break;
+	case PLAYERSTATE.IDLE: player_state_idle(); break;
 	case PLAYERSTATE.ATTACK: player_state_attack(); break;
 	case PLAYERSTATE.DAMAGE: player_state_damage(); break;
 }

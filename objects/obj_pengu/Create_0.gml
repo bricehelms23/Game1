@@ -5,6 +5,8 @@ move_speed = 0;
 max_move_speed = 6;
 jump_speed = 0;
 _gravity = 1;
+jump_count = 0;
+max_jumps = 2;
 
 move_x = 0;
 //move_y = 0;

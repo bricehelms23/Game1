@@ -3,3 +3,4 @@
 
 draw_self();
 draw_circle(x, y, 50, true);
+draw_circle(x, y, 100, true);

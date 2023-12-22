@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+move_speed = 0;
+jump_speed = 0;
+move_speed_push = 0;
+jump_speed_push = 0;
+
 state = ENEMYSTATE.IDLE;
 hit_by_attack = ds_list_create();
 
@@ -10,5 +15,6 @@ enum ENEMYSTATE
 {
 	IDLE,
 	ATTACK,
-	DAMAGE
+	DAMAGE,
+	TRACK
 }

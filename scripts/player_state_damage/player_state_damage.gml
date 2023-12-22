@@ -13,5 +13,6 @@ function player_state_damage(){
 	if (hp == 0) 
 	{
 		instance_destroy();
+		obj_game.alarm[0] = 120;
 	}
 }

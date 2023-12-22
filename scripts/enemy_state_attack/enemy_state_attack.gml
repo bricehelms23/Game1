@@ -28,7 +28,7 @@ function enemy_state_attack(){
 			}
 		}
 	}
-	
+	move();
 	ds_list_destroy(_hit_by_attack_now);
 	mask_index = spr_enemy
 	
