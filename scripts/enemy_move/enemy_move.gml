@@ -7,28 +7,28 @@ function enemy_move(){
 		//direction *= -1; 
 		show_debug_message("I'm scared");
 		image_xscale *= -1;
-		move_speed *= -1;
+		_move_speed *= -1;
 	}
 	
-	if (place_meeting(round(x+move_speed), round(y), obj_ground_temp))
+	if (place_meeting(round(x+_move_speed), round(y), obj_ground_temp))
 	{
-		while (!place_meeting(round(x+sign(move_speed)), round(y), obj_ground_temp))
+		while (!place_meeting(round(x+sign(_move_speed)), round(y), obj_ground_temp))
 		{
-			x += sign(move_speed);	
+			x += sign(_move_speed);	
 		}
-		move_speed = 0;
+		_move_speed = 0;
 	}
 
-	x += move_speed;
+	x += _move_speed;
 
-	if (place_meeting(round(x), round(y+jump_speed), obj_ground_temp))
+	if (place_meeting(round(x), round(y+_jump_speed), obj_ground_temp))
 	{
-		while (!place_meeting(round(x), round(y+sign(jump_speed)), obj_ground_temp))
+		while (!place_meeting(round(x), round(y+sign(_jump_speed)), obj_ground_temp))
 		{
-			y += sign(jump_speed);	
+			y += sign(_jump_speed);	
 		}
-		jump_speed = 0;
+		_jump_speed = 0;
 	}
 	
-	y += jump_speed;
+	y += _jump_speed;
 }

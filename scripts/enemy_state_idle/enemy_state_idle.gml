@@ -1,7 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function enemy_state_idle(){
-	
+	_move_speed = 3;
+    _jump_speed = 0;
 	enemy_move();
 	
 	if (collision_circle(x, y, 100, obj_pengu, false, true))

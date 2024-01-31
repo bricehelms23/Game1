@@ -9,8 +9,10 @@ function enemy_state_track(){
 		{
 		
 			var _dir = point_direction(x, y, obj_pengu.x, obj_pengu.y);
-			obj_enemy_parent.move_speed = lengthdir_x(4, _dir);
-			obj_enemy_parent.jump_speed = lengthdir_y(2, _dir);
+			//obj_enemy_parent._move_speed = lengthdir_x(4, _dir);
+			//obj_enemy_parent._jump_speed = lengthdir_y(2, _dir);
+			_move_speed = lengthdir_x(4, _dir);
+			_jump_speed = lengthdir_y(2, _dir);
 			enemy_move();
 	
 			if (collision_circle(x, y, 50, obj_pengu, false, true))
@@ -18,8 +20,10 @@ function enemy_state_track(){
 				//direction = point_direction(x, y, obj_pengu.x, obj_pengu.y);
 				image_xscale = sign(x - obj_pengu.x);
 				state = ENEMYSTATE.ATTACK;
-				obj_enemy_parent.move_speed = 0;
-				obj_enemy_parent.jump_speed = 0;
+				//obj_enemy_parent._move_speed = 0;
+				//obj_enemy_parent._jump_speed = 0;
+				_move_speed = 0;
+				_jump_speed = 0;
 			}
 		}
 	
