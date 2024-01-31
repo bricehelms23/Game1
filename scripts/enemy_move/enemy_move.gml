@@ -2,12 +2,14 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function enemy_move(){
 	
-	if ((fear_of_height) && !position_meeting(x+(sprite_width/2), y+(sprite_height), obj_ground_temp))
+	if ((fear_of_height) && !position_meeting(x-(sprite_width/3), y+(sprite_height), obj_ground_temp))
 	{
-		//direction *= -1; 
+		direction *= -1; 
 		show_debug_message("I'm scared");
-		image_xscale *= -1;
+		//image_xscale *= -1;
 		_move_speed *= -1;
+		_jump_speed = 0;
+		state = ENEMYSTATE.IDLE;
 	}
 	
 	if (place_meeting(round(x+_move_speed), round(y), obj_ground_temp))
