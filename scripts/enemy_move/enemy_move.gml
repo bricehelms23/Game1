@@ -2,35 +2,40 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function enemy_move(){
 	
-	if ((fear_of_height) && !position_meeting(x-(sprite_width/3), y+(sprite_height), obj_ground_temp))
+	if ((fear_of_height) && !position_meeting(x+(sprite_width/3), y+(sprite_height), obj_ground_temp))
 	{
 		direction *= -1; 
 		show_debug_message("I'm scared");
-		//image_xscale *= -1;
-		_move_speed *= -1;
-		_jump_speed = 0;
-		state = ENEMYSTATE.IDLE;
+		image_xscale *= -1;
+		move_speed *= -1;
+		jump_speed = 0;
+		//state = ENEMYSTATE.IDLE;
 	}
 	
-	if (place_meeting(round(x+_move_speed), round(y), obj_ground_temp))
+	
+	
+	if (place_meeting(round(x+move_speed), round(y), obj_ground_temp))
 	{
-		while (!place_meeting(round(x+sign(_move_speed)), round(y), obj_ground_temp))
+		while (!place_meeting(round(x+sign(move_speed)), round(y), obj_ground_temp))
 		{
-			x += sign(_move_speed);	
+			x += sign(move_speed);	
 		}
-		_move_speed = 0;
+		show_debug_message("I've hit a wall");
+		move_speed *= -1;
+		direction *= -1;
+		image_xscale *= -1;
 	}
 
-	x += _move_speed;
+	x += move_speed;
 
-	if (place_meeting(round(x), round(y+_jump_speed), obj_ground_temp))
+	if (place_meeting(round(x), round(y+jump_speed), obj_ground_temp))
 	{
-		while (!place_meeting(round(x), round(y+sign(_jump_speed)), obj_ground_temp))
+		while (!place_meeting(round(x), round(y+sign(jump_speed)), obj_ground_temp))
 		{
-			y += sign(_jump_speed);	
+			y += sign(jump_speed);	
 		}
-		_jump_speed = 0;
+		jump_speed = 0;
 	}
 	
-	y += _jump_speed;
+	y += jump_speed;
 }
