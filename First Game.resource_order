@@ -35,7 +35,6 @@
     {"name":"enemy_state_attack","order":2,"path":"scripts/enemy_state_attack/enemy_state_attack.yy",},
     {"name":"obj_enemy_2","order":3,"path":"objects/obj_enemy_2/obj_enemy_2.yy",},
     {"name":"spr_pengu_attack","order":1,"path":"sprites/spr_pengu_attack/spr_pengu_attack.yy",},
-    {"name":"Object7","order":1,"path":"objects/Object7/Object7.yy",},
     {"name":"obj_resize","order":2,"path":"objects/obj_resize/obj_resize.yy",},
     {"name":"spr_enemy_damage_flash","order":1,"path":"sprites/spr_enemy_damage_flash/spr_enemy_damage_flash.yy",},
     {"name":"enemy_move","order":6,"path":"scripts/enemy_move/enemy_move.yy",},
