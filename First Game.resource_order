@@ -37,6 +37,7 @@
     {"name":"spr_pengu_attack","order":1,"path":"sprites/spr_pengu_attack/spr_pengu_attack.yy",},
     {"name":"obj_resize","order":2,"path":"objects/obj_resize/obj_resize.yy",},
     {"name":"spr_enemy_damage_flash","order":1,"path":"sprites/spr_enemy_damage_flash/spr_enemy_damage_flash.yy",},
+    {"name":"menu","order":1,"path":"rooms/menu/menu.yy",},
     {"name":"enemy_move","order":6,"path":"scripts/enemy_move/enemy_move.yy",},
     {"name":"obj_enemy_1","order":2,"path":"objects/obj_enemy_1/obj_enemy_1.yy",},
     {"name":"obj_spikes","order":1,"path":"objects/obj_spikes/obj_spikes.yy",},

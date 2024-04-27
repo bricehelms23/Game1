@@ -56,6 +56,7 @@
     {"id":{"name":"spr_pengu_attack","path":"sprites/spr_pengu_attack/spr_pengu_attack.yy",},},
     {"id":{"name":"obj_resize","path":"objects/obj_resize/obj_resize.yy",},},
     {"id":{"name":"spr_enemy_damage_flash","path":"sprites/spr_enemy_damage_flash/spr_enemy_damage_flash.yy",},},
+    {"id":{"name":"menu","path":"rooms/menu/menu.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
     {"id":{"name":"enemy_move","path":"scripts/enemy_move/enemy_move.yy",},},
     {"id":{"name":"spr_ground_temp","path":"sprites/spr_ground_temp/spr_ground_temp.yy",},},
@@ -78,6 +79,7 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"menu","path":"rooms/menu/menu.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
